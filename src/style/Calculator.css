@@ -1,0 +1,15 @@
+.title {
+    margin-bottom: 10px;
+}
+
+.calculator {
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    border: 1.5px solid var(--border-color-display);
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr repeat(5, 48px);
+}

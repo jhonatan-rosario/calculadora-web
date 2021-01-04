@@ -1,0 +1,42 @@
+@import url('./colors.css');
+
+.button {
+    font-size: 1.4em;
+    font-weight: 900;
+    background-color: var(--bg-light-color-button);
+    border: none;
+    border-right: 1px solid var(--border-color-button);
+    border-bottom: 1px solid var(--border-color-button);
+    outline: none;
+}
+
+.button.operation {
+    background-color: var(--bg-color-operation-button);
+    color: var(--txt-color-operation-button);
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+}
+
+/*
+.button.no-border-bottom {
+    border-bottom: none;
+}
+
+.button.no-border-right {
+    border-right: none;
+}
+*/
+
+.button:active {
+    background-color: var(--bg-light-color-button-active);
+}
+
+.operation:active {
+    background-color: var(--bg-color-operation-button-active);
+}
