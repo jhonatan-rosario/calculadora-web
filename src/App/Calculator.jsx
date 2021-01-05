@@ -33,7 +33,7 @@ export default class Calculator extends Component {
             this.setState({
                 operation: equals ? null : operation,
                 current: equals ? 0 : 1, 
-                clearDisplay: true 
+                clearDisplay: equals ? false : true
             });
         } else {
             const currentOperation = this.state.operation;
@@ -61,10 +61,22 @@ export default class Calculator extends Component {
                 };
                 return result
             };
-
+            
+            if (values[1] && !equals) {
+                this.setState({
+                    displayValue: values[0],
+                    operation,
+                    current: 1,
+                    clearDisplay: !equals,
+                    values
+                });
+                return
+            }
+            
             values[0] = calculate(values[0], values[1], currentOperation); 
 
-            //values[1] = equals ? values[1] : 0
+            values[1] = equals ? values[1] : 0
+            
             console.log(values);
             this.setState({
                 displayValue: values[0],
