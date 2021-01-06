@@ -1,11 +1,13 @@
 :root {
     /* Light Theme */
     
-    --bg-color: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85)) repeat scroll 0% 0%;
+    --bg-color-header: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85)) repeat scroll 0% 0%;
     
     --title-color: #fff;
     
-    --bg-color-header: #555;
+    --bg-color: linear-gradient(117deg, #acb2bc 0%, #e7e5e9 100%);
+
+    
     --bg-color-display: #0004;
     --bg-light-color-button: #f0f0f0;
     --bg-light-color-button-active: #ccc;

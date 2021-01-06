@@ -155,7 +155,6 @@ export default class Calculator extends Component {
     render() {
         return (
             <div>
-                <h1 className="title">Calculator</h1>
                 <div className="calculator">
                     <Display value={this.state.displayValue} />
                     <Button value="ac" label="AC" click={this.clearMemory} triple />
