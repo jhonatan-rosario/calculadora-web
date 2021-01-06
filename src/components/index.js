@@ -1,4 +1,5 @@
-import Display from "./Display";
-import Button from "./Button";
+import Display from './Display';
+import Button from './Button';
+import Header from './Header';
 
-export { Display, Button }
+export { Display, Button, Header };

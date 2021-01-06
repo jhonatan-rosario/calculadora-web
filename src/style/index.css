@@ -6,15 +6,20 @@
 }
 
 * {
-    font-family: "RobotoMono";
+    font-family: "RobotoMono", Monospace;
+    margin: 0;
+    padding: 0;
 }
 
-body {
+
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--bg-color);
+    width: 100%;
+    background: var(--bg-color);
+    
     
     text-align: center;
     color: var(--txt-color-display);
