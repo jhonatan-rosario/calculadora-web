@@ -1,0 +1,21 @@
+@import url("./colors.css");
+
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: var(--bg-color-header);
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.header-title {
+    color: var(--title-color);
+}

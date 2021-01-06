@@ -1,22 +1,21 @@
-@import url(./colors.css);
+@import url("./colors.css");
 
 @font-face {
-  font-family: 'RobotoMono';
-  src: url('../fonts/RobotoMono-Thin.ttf');
+    font-family: "RobotoMono";
+    src: url("../fonts/RobotoMono-Thin.ttf");
 }
 
 * {
-  font-family: 'RobotoMono', monospace;
-  margin: 0;
-  padding: 0;
+    font-family: "RobotoMono";
 }
 
 body {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: var(--title-color);
-  background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+    
+    text-align: center;
+    color: var(--txt-color-display);
 }
