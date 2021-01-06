@@ -1,6 +1,6 @@
 import React, {StrictMode} from 'react';
 import ReactDOM from 'react-dom';
-import Calculator from './App';
+import Calculator from './app';
 import reportWebVitals from './reportWebVitals';
 import './style/index.css';
 
